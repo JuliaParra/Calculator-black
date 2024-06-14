@@ -1,10 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import header from 'header'
+import Footer from '@/components/Footer.vue'
+import Calculatorview from './views/Calculatorview.vue';
+
 </script>
 
 <template>
-  <header>
+  <Header>
    
 
       <nav>
@@ -12,13 +14,22 @@ import header from 'header'
         <RouterLink to="/div">Divisas</RouterLink>
         <RouterLink to="/tiemp">Tiempo</RouterLink>
       </nav>
-   
-  </header>
+      
+  </Header>
 
   <RouterView />
+  <Footer />
+  
 </template>
 
 <style scoped>
+
+.footer { position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+  height: auto; 
+
+}
 header {
   line-height: 1.5;
   max-height: 100vh;

@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Calculatorview from '../views/Calculatorview.vue'
 import Tiempoview from '../views/Tiempoview.vue'
 import Divisasview from '@/views/divisasview.vue'
+import  Footer  from '/src/components/Footer.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

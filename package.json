@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "sass": "sass --watch src/scss:src/css",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "sass": "^1.77.5",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
