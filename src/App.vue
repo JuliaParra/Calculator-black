@@ -1,7 +1,8 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import Footer from '@/components/Footer.vue'
+import { RouterLink, RouterView } from 'vue-router';
+import Footer from '@/components/Footer.vue';
 import Calculatorview from './views/Calculatorview.vue';
+
 
 </script>
 
@@ -11,8 +12,8 @@ import Calculatorview from './views/Calculatorview.vue';
 
       <nav>
         <RouterLink to="/">Calculator</RouterLink>
-        <RouterLink to="/div">Divisas</RouterLink>
-        <RouterLink to="/tiemp">Tiempo</RouterLink>
+        <RouterLink to="/divisas">Divisas</RouterLink>
+        <RouterLink to="/tiempo">Tiempo</RouterLink>
       </nav>
       
   </Header>

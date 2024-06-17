@@ -13,13 +13,13 @@ const router = createRouter({
       component: Calculatorview
     },
     {
-      path: '/',
-      name: 'tiemp',
+      path: '/tiempo',
+      name: 'tiempo',
       component: Tiempoview
     },
     {
-      path: '/',
-      name: 'div',
+      path: '/divisas',
+      name: 'divisas',
       component: Divisasview
     }
   ]
