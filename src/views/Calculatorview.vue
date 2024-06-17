@@ -127,7 +127,7 @@
     font-size: 3rem;
 
     table {
-      color: #871616;
+      color: #fff;
       width: 370px;
     }
 
