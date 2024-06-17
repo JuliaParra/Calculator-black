@@ -2,6 +2,15 @@
 import { RouterLink, RouterView } from 'vue-router';
 import Footer from '@/components/Footer.vue';
 import Calculatorview from './views/Calculatorview.vue';
+import Tiempoview from './views/Tiempoview.vue';
+
+
+export default {
+  name: 'App',
+  components: {
+    Weather
+  }
+}
 
 
 </script>
