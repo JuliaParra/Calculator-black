@@ -1,14 +1,20 @@
 <template>
     <div>
-        
-        
+      <Divisas />
     </div>
-</template>
+  </template>
+  
+  <script>
+  import Divisas from '@/components/Divisas.vue';
 
-<script>
-
-</script>
-
-<style>
-
-</style>
+  
+  export default {
+    components: {
+      Divisas
+    }
+  };
+  </script>
+  
+  <style scoped>
+  
+  </style>

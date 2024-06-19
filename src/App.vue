@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
 import Footer from '@/components/Footer.vue';
-
+import Divisasview from './views/divisasview.vue'
 import Calculatorview from './views/Calculatorview.vue';
 import Tiempoview from './views/Tiempoview.vue';
 </script>
