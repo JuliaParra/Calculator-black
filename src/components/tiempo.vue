@@ -67,6 +67,11 @@ export default {
 </script>
 
 <style>
+  .weather-app{
+    display: flex;
+    justify-content: center;
+
+    }
 img{
   width:300px;
 }
