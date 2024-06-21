@@ -50,13 +50,13 @@ export default {
         case 'nubes altas':
           this.weatherImage = 'https://cdn.pixabay.com/photo/2012/04/18/13/22/cloud-37010_1280.png';
           break;
-        case 'intervalos nubosos con lluvia escasa':
-          this.weatherImage = 'https://cdn.pixabay.com/photo/2012/04/18/13/22/cloud-37011_1280.png';
+        case 'nuboso con lluvia escasa':
+          this.weatherImage = 'https://cdn.pixabay.com/photo/2013/07/13/12/12/cloud-159388_1280.png';
           break;
         case 'muy nuboso con lluvia':
         case 'cubierto con lluvia':
           this.weatherImage = 'https://cdn.pixabay.com/photo/2013/07/13/12/12/cloud-159389_1280.png';
-          break;
+          break; 
         default:
           this.weatherImage = 'https://cdn.pixabay.com/photo/2017/09/26/18/10/weather-2789613_960_720.png'; 
       }

@@ -10,30 +10,30 @@
           </tr>
           <tr>
             <td @click="clear">CE</td>
-            <td class="operadores" @click="setOperator('/')"><i class="fas fa-divide"></i></td>
+            <td class="operadores" @click="setOperator('/')"><i class="fas fa-divide">%</i></td>
           </tr>
           <tr>
             <td @click="addNumber('7')">7</td>
             <td @click="addNumber('8')">8</td>
             <td @click="addNumber('9')">9</td>
-            <td class="operadores" @click="setOperator('*')"><i class="fa-solid fa-xmark"></i></td>
+            <td class="operadores" @click="setOperator('*')"><i class="fa-solid fa-xmark">*</i></td>
           </tr>
           <tr>
             <td @click="addNumber('4')">4</td>
             <td @click="addNumber('5')">5</td>
             <td @click="addNumber('6')">6</td>
-            <td class="operadores" @click="setOperator('-')"><i class="fa-solid fa-minus"></i></td>
+            <td class="operadores" @click="setOperator('-')"><i class="fa-solid fa-minus">-</i></td>
           </tr>
           <tr>
             <td @click="addNumber('1')">1</td>
             <td @click="addNumber('2')">2</td>
             <td @click="addNumber('3')">3</td>
-            <td class="operadores" @click="setOperator('+')"><i class="fa-solid fa-plus"></i></td>
+            <td class="operadores" @click="setOperator('+')"><i class="fa-solid fa-plus">+</i></td>
           </tr>
           <tr>
             <td colspan="2" @click="addNumber('0')">0</td>
             <td @click="addPoint">.</td>
-            <td class="operadores" @click="equal"><i class="fa-solid fa-equals"></i></td>
+            <td class="operadores" @click="equal"><i class="fa-solid fa-equals"></i>=</td>
           </tr>
         </tbody>
       </table>
@@ -99,7 +99,7 @@ export default {
         case '*':
           value = firstNum * secondNum;
           break;
-        case '/':
+        case '%':
           value = firstNum / secondNum;
           break;
       }
